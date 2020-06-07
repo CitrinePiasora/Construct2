@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>startpage_events</name>
+    <events>
+        <event-block sid="903766859529488">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="254706208351692" type="Mouse">
+                    <param id="0" name="Object">button</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="712787541631230" type="button">
+                    <param id="0" name="Width">220</param>
+                    <param id="1" name="Height">220</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="712620151915086">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="919960121662652" type="Mouse">
+                    <param id="0" name="Object">button</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="396260233977346" type="button">
+                    <param id="0" name="Width">173</param>
+                    <param id="1" name="Height">173</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="667600005978718">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="405734334897407" type="Mouse">
+                    <param id="0" name="Object">btn_info</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="942068226059903" type="btn_info">
+                    <param id="0" name="Width">220</param>
+                    <param id="1" name="Height">220</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="561854783823352">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="333419297237765" type="Mouse">
+                    <param id="0" name="Object">btn_info</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="993325946745328" type="btn_info">
+                    <param id="0" name="Width">173</param>
+                    <param id="1" name="Height">173</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="802244916136039">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="887889662904982" type="Mouse">
+                    <param id="0" name="Object">btn_play</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="578730371055944" type="btn_play">
+                    <param id="0" name="Width">220</param>
+                    <param id="1" name="Height">220</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="986850494775462">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="621836695088149" type="Mouse">
+                    <param id="0" name="Object">btn_play</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="991704599763245" type="btn_play">
+                    <param id="0" name="Width">173</param>
+                    <param id="1" name="Height">173</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="681593181273627">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="104511014510539" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="740094942806635" type="Mouse">
+                    <param id="0" name="Cursor style">7</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="955983084015994">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="294390077291506" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="885117167649270" type="Cursor">
+                    <param id="0" name="X">mouse.x</param>
+                    <param id="1" name="Y">mouse.y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="225500978859453">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="808794827064560" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">btn_play</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="364133160911467" type="System">
+                    <param id="0" name="Layout">Level1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="215371559021634">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="503982661800848" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">btn_info</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="699569514523097" type="System">
+                    <param id="0" name="Layout">tutorial_info</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
